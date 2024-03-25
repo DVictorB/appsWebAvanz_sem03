@@ -8,7 +8,7 @@ app.use(express.urlencoded({extended:false}))
 
 
 app.get("/user", (req, res) => {
-    consoles.log(req.body)
+    console.log(req.body)
     res.send("Nuevo usuario creado")
 })
 
